@@ -47,5 +47,5 @@ app.delete('/usuarios', function(req, res) {
 })
 
 app.listen(process.env.PORT, () => {
-    console.log('Servidor activo en el puerto: ', 3000);
+    console.log('Servidor activo en el puerto: ', process.env.PORT);
 });
